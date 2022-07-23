@@ -1,0 +1,10 @@
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/bin/Debug/netcoreapp3.1/Company.Query.Infra.Integration.deps.json
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/bin/Debug/netcoreapp3.1/Company.Query.Infra.Integration.dll
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/bin/Debug/netcoreapp3.1/Company.Query.Infra.Integration.pdb
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.csproj.AssemblyReference.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.GeneratedMSBuildEditorConfig.editorconfig
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.AssemblyInfoInputs.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.AssemblyInfo.cs
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.csproj.CoreCompileInputs.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.dll
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/obj/Debug/netcoreapp3.1/Company.Query.Infra.Integration.pdb

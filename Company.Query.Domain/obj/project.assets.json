@@ -1,0 +1,221 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.11.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
+        }
+      },
+      "SonarAnalyzer.CSharp/8.13.0.21683": {
+        "type": "package"
+      },
+      "Company.Query.Infra.CrossCutting.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Company.Query.Infra.CrossCutting.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Query.Infra.CrossCutting.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
+    "MongoDB.Bson/2.11.4": {
+      "sha512": "4i/c7Qq4ov2r1Z9yMigcQNLVukJDuMJclKiHLGPx6fpV0c8/A/WMsRDQJv3NeEhkKbFXamxFmRPKv1ztw0u3cA==",
+      "type": "package",
+      "path": "mongodb.bson/2.11.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net452/MongoDB.Bson.dll",
+        "lib/net452/MongoDB.Bson.xml",
+        "lib/netstandard1.5/MongoDB.Bson.dll",
+        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "lib/netstandard2.0/MongoDB.Bson.dll",
+        "lib/netstandard2.0/MongoDB.Bson.xml",
+        "mongodb.bson.2.11.4.nupkg.sha512",
+        "mongodb.bson.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SonarAnalyzer.CSharp/8.13.0.21683": {
+      "sha512": "yAe2uJXF5tWLk5/+Si5Bwwld+VSZNbQfiiyqteLN7q74VTCymE/b3yThKlrdInmA0udtamCfJT6wkKNbSdOQBg==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/8.13.0.21683",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "sonaranalyzer.csharp.8.13.0.21683.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Company.Query.Infra.CrossCutting.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj",
+      "msbuildProject": "../Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Company.JsonApiSpec.Mvc >= 2020.6.26",
+      "Company.Query.Infra.CrossCutting.Interfaces >= 1.0.0",
+      "CompanySource.Infra.Abstractions >= 2.5.0",
+      "Flunt >= 1.0.5",
+      "MongoDB.Bson >= 2.11.4",
+      "SonarAnalyzer.CSharp >= 8.13.0.21683"
+    ]
+  },
+  "packageFolders": {
+    "/home/frank/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj",
+      "projectName": "Company.Query.Domain",
+      "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj",
+      "packagesPath": "/home/frank/.nuget/packages/",
+      "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/frank/Projects/others/git/company-query/nuget.config",
+        "/home/frank/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj": {
+              "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Company.JsonApiSpec.Mvc": {
+            "target": "Package",
+            "version": "[2020.6.26, )"
+          },
+          "CompanySource.Infra.Abstractions": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
+          "Flunt": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.11.4, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.13.0.21683, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Company.JsonApiSpec.Mvc. No packages exist with this id in source(s): Company-Nexus, nuget.org",
+      "libraryId": "Company.JsonApiSpec.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package CompanySource.Infra.Abstractions. No packages exist with this id in source(s): Company-Nexus, nuget.org",
+      "libraryId": "CompanySource.Infra.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

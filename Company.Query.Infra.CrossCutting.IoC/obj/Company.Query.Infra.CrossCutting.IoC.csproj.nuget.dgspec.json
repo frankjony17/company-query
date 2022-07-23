@@ -1,0 +1,431 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.IoC/Company.Query.Infra.CrossCutting.IoC.csproj": {}
+  },
+  "projects": {
+    "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj",
+        "projectName": "Company.Query.Domain",
+        "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj",
+        "packagesPath": "/home/frank/.nuget/packages/",
+        "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frank/Projects/others/git/company-query/nuget.config",
+          "/home/frank/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Company.JsonApiSpec.Mvc": {
+              "target": "Package",
+              "version": "[2020.6.26, )"
+            },
+            "CompanySource.Infra.Abstractions": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.13.0.21683, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj",
+        "projectName": "Company.Query.Infra.CrossCutting.Interfaces",
+        "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj",
+        "packagesPath": "/home/frank/.nuget/packages/",
+        "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frank/Projects/others/git/company-query/nuget.config",
+          "/home/frank/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.IoC/Company.Query.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.IoC/Company.Query.Infra.CrossCutting.IoC.csproj",
+        "projectName": "Company.Query.Infra.CrossCutting.IoC",
+        "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.IoC/Company.Query.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "/home/frank/.nuget/packages/",
+        "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frank/Projects/others/git/company-query/nuget.config",
+          "/home/frank/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj"
+              },
+              "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/Company.Query.Infra.Data.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/Company.Query.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CompanySource.Infra": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.13.0.21683, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj",
+        "projectName": "Company.Query.Infra.CrossCutting.Tools",
+        "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj",
+        "packagesPath": "/home/frank/.nuget/packages/",
+        "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frank/Projects/others/git/company-query/nuget.config",
+          "/home/frank/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Company.JsonApiSpec.Mvc": {
+              "target": "Package",
+              "version": "[2020.6.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/Company.Query.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/Company.Query.Infra.Data.csproj",
+        "projectName": "Company.Query.Infra.Data",
+        "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/Company.Query.Infra.Data.csproj",
+        "packagesPath": "/home/frank/.nuget/packages/",
+        "outputPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/frank/Projects/others/git/company-query/nuget.config",
+          "/home/frank/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.devcompany.com.br/repository/company-nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj"
+              },
+              "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/Company.Query.Infra.CrossCutting.Interfaces.csproj"
+              },
+              "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj": {
+                "projectPath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.13.0.21683, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

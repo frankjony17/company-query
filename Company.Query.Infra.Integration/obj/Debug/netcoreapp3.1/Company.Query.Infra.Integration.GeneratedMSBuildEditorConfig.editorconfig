@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Company.Query.Infra.Integration
+build_property.ProjectDir = /home/frank/Projects/others/git/company-query/Company.Query.Infra.Integration/

@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "dR/5W5cEUeRsQXsfy4Ne8KQlUZA/DxlXMXyu9KZztLagJ3MTJygzLcmK4EjLT8GUtAhAC4yDv7QtVLyZlgJ77A==",
+  "success": false,
+  "projectFilePath": "/home/frank/Projects/others/git/company-query/Company.Query.Domain/Company.Query.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/frank/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512",
+    "/home/frank/.nuget/packages/mongodb.bson/2.11.4/mongodb.bson.2.11.4.nupkg.sha512",
+    "/home/frank/.nuget/packages/sonaranalyzer.csharp/8.13.0.21683/sonaranalyzer.csharp.8.13.0.21683.nupkg.sha512",
+    "/home/frank/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/frank/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Company.JsonApiSpec.Mvc. No packages exist with this id in source(s): Company-Nexus, nuget.org",
+      "libraryId": "Company.JsonApiSpec.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package CompanySource.Infra.Abstractions. No packages exist with this id in source(s): Company-Nexus, nuget.org",
+      "libraryId": "CompanySource.Infra.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="MongoDB.Bson" Version="2.11.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.4" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.13.0.21683">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Query.Domain\Company.Query.Domain.csproj" />
+    <ProjectReference Include="..\Company.Query.Infra.CrossCutting.Interfaces\Company.Query.Infra.CrossCutting.Interfaces.csproj" />
+    <ProjectReference Include="..\Company.Query.Infra.CrossCutting.Tools\Company.Query.Infra.CrossCutting.Tools.csproj" />
+  </ItemGroup>  
+  
+</Project>

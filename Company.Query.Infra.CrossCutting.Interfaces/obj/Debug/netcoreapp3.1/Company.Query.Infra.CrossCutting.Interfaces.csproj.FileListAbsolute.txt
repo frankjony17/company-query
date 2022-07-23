@@ -1,0 +1,10 @@
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/bin/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.deps.json
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/bin/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.dll
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/bin/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.pdb
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.csproj.AssemblyReference.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.AssemblyInfoInputs.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.AssemblyInfo.cs
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.csproj.CoreCompileInputs.cache
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.dll
+/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Interfaces/obj/Debug/netcoreapp3.1/Company.Query.Infra.CrossCutting.Interfaces.pdb

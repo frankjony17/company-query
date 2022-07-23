@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Company.Query.Domain
+build_property.ProjectDir = /home/frank/Projects/others/git/company-query/Company.Query.Domain/

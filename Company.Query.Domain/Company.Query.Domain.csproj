@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Builders\**" />
+    <Compile Remove="Clients\**" />
+    <Compile Remove="Entities\**" />
+    <Compile Remove="Extensions\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Options\**" />
+    <Compile Remove="Providers\Requests\**" />
+    <EmbeddedResource Remove="Builders\**" />
+    <EmbeddedResource Remove="Clients\**" />
+    <EmbeddedResource Remove="Entities\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Options\**" />
+    <EmbeddedResource Remove="Providers\Requests\**" />
+    <None Remove="Builders\**" />
+    <None Remove="Clients\**" />
+    <None Remove="Entities\**" />
+    <None Remove="Extensions\**" />
+    <None Remove="Models\**" />
+    <None Remove="Options\**" />
+    <None Remove="Providers\Requests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstractions\Interfaces\BsonIdAttribute.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.5" />
+    <PackageReference Include="MongoDB.Bson" Version="2.11.4" />
+    <PackageReference Include="Company.JsonApiSpec.Mvc" Version="2020.6.26" />
+    <PackageReference Include="CompanySource.Infra.Abstractions" Version="2.5.0" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.13.0.21683">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Query.Infra.CrossCutting.Interfaces\Company.Query.Infra.CrossCutting.Interfaces.csproj" />
+  </ItemGroup>
+  
+</Project>

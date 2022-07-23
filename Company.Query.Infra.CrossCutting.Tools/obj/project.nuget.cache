@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "AhGlqnulsB0BOH2up3Yib3+gOOXF1ArE4+Q4crqI4c3n1tw/iSr0wcDOAjfyEqhH1hkDc9QOq6YhD+E5/M+KIQ==",
+  "success": false,
+  "projectFilePath": "/home/frank/Projects/others/git/company-query/Company.Query.Infra.CrossCutting.Tools/Company.Query.Infra.CrossCutting.Tools.csproj",
+  "expectedPackageFiles": [
+    "/home/frank/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/frank/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Company.JsonApiSpec.Mvc. No packages exist with this id in source(s): Company-Nexus, nuget.org",
+      "libraryId": "Company.JsonApiSpec.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
